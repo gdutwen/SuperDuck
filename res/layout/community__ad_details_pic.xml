@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/title"/>
+    <TextView 
+        android:layout_marginTop="@dimen/y19"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="暴雨红色预警"
+        android:height="@dimen/y11"
+        android:textColor="#4d4d4d"
+        android:layout_marginLeft="@dimen/x9"/>
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/y9"
+        android:layout_marginLeft="@dimen/x9"
+        android:layout_marginRight="@dimen/x9">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="尚轩小区"
+            android:height="@dimen/y9"
+            android:textSize="12sp"
+            android:textColor="#8d8d8d"/>
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="发布时间9-11 9：30"
+            android:height="@dimen/y9"
+            android:textSize="12sp"
+            android:textColor="#8d8d8d"/>
+    </RelativeLayout>
+
+</LinearLayout>

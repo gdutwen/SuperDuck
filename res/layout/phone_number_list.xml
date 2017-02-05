@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/backgroud">
+    <include layout="@layout/title"/>
+    <LinearLayout
+        android:layout_height="@dimen/y22"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/x31"
+        android:layout_marginRight="@dimen/x31"
+        android:background="@drawable/shade_phone_search"
+        android:layout_marginTop="@dimen/y6">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/x31"
+            android:src="@drawable/icon_search"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="#00000000"
+            android:hint="搜索"
+            android:textSize="12sp"           
+            android:textColor="#b3b3b3"
+            android:textColorHighlight="#4d4d4d"/>       "
+    </LinearLayout>
+    <ListView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        ></ListView>
+</LinearLayout>

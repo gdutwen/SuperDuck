@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="margin_x12">@dimen/x5</dimen>
+    <dimen name="margin_x24">@dimen/x11</dimen>
+    <dimen name="margin_x72">@dimen/x32</dimen>
+    <dimen name="margin_x90">@dimen/x40</dimen>
+    <dimen name="margin_x144">@dimen/x64</dimen>
+    <dimen name="margin_x156">@dimen/x69</dimen>
+    <dimen name="margin_x260">@dimen/x116</dimen>
+    
+    <dimen name="margin_y12">@dimen/y4</dimen>
+    <dimen name="margin_y14">@dimen/y4</dimen>
+    <dimen name="margin_y18">@dimen/y5</dimen>
+    <dimen name="margin_y24">@dimen/y7</dimen>
+    <dimen name="margin_y28">@dimen/y9</dimen>
+    <dimen name="margin_y32">@dimen/y10</dimen>
+    <dimen name="margin_y40">@dimen/y13</dimen>
+    <dimen name="margin_y72">@dimen/y23</dimen>
+    <dimen name="margin_y88">@dimen/y27</dimen>
+    <dimen name="margin_y90">@dimen/y28</dimen>
+    <dimen name="margin_y96">@dimen/y30</dimen>
+    <dimen name="margin_y120">@dimen/y38</dimen>
+    <dimen name="margin_y132">@dimen/y41</dimen>
+    <dimen name="margin_y200">@dimen/y62</dimen>
+    <dimen name="margin_y280">@dimen/y88</dimen>
+    <dimen name="margin_y314">@dimen/y98</dimen>
+</resources>

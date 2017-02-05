@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y37"
+    android:background="@color/backgroudwhite" >
+
+    <ImageView
+        android:layout_width="@dimen/x4"
+        android:layout_height="@dimen/y37"
+        android:background="#ffea78" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x27"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="@dimen/y9"
+                android:text="陈乔川"
+                android:textColor="#4d4d4d"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:height="@dimen/y7"
+                android:text="保安"
+                android:textColor="#4d4d4d"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:height="@dimen/y9"
+            android:text="13545698517"
+            android:textColor="#8d8d8d"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="@dimen/x53"
+        android:layout_height="@dimen/y38"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#00000000"
+        android:src="@drawable/icon_call" />
+
+</RelativeLayout>

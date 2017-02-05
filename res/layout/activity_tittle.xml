@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/sjkj.wen.superduck"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y28"
+    android:background="@color/titelyellow"
+    android:orientation="horizontal" 
+     >
+   <sjkj.wen.superduck.activity.view.CircleImageView
+            android:layout_width="@dimen/x32"
+            android:layout_height="@dimen/y23"
+            android:layout_centerVertical="true"
+            android:src="@drawable/hugh"
+            app:border_width="2dp"
+            app:border_color="#FF222222"
+            android:layout_marginLeft="@dimen/x13" />
+   <TextView 
+       android:id="@+id/tv_mainfragment_title"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:layout_centerInParent="true"
+       android:text="小区物业"
+       android:textColor="#323232"
+       android:textSize="@dimen/y11"/>
+
+
+    
+
+</RelativeLayout>

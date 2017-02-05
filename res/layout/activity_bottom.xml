@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/y31" 
+       android:background="#ffffff">
+   
+       <LinearLayout
+           android:id="@+id/ll_home"
+           android:layout_width="wrap_content"
+           android:layout_height="@dimen/y30"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:orientation="vertical" >
+  
+          <ImageView
+              android:id="@+id/iv_home"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/y13" 
+              android:background="@drawable/icon_home"/>
+  
+          <TextView
+              android:id="@+id/tv_home"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/y2"
+              android:layout_marginBottom="@dimen/y3"
+              android:text="首页"
+              android:textSize="@dimen/y6"
+              android:textColor="#4d4d4d"              />
+      </LinearLayout>  
+       <LinearLayout
+         android:id="@+id/ll_nbcircle"
+         android:layout_width="wrap_content"
+         android:layout_height="@dimen/y31"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:orientation="vertical" >
+  
+          <ImageView
+             android:id="@+id/iv_nbcircle"
+             android:layout_width="wrap_content"
+             android:layout_height="@dimen/y13" 
+             android:background="@drawable/icon_nbcircle_selected"/>
+  
+          <TextView
+             android:id="@+id/tv_nbcircle"
+             android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/y2"
+              android:layout_marginBottom="@dimen/y3"
+              android:text="邻里圈"
+              android:textSize="@dimen/y6"
+              android:textColor="#4d4d4d"  />
+    </LinearLayout>
+      <LinearLayout
+          android:id="@+id/ll_huilife"
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/y31"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:layout_gravity="center"
+          android:orientation="vertical" >
+  
+          <ImageView
+              android:id="@+id/iv_huilife"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/y9"
+              android:background="@drawable/icon_huilife"
+              android:layout_marginTop="@dimen/y3" />
+  
+          <TextView
+              android:id="@+id/tv_huilife"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"              
+              android:layout_marginTop="@dimen/y3"
+              android:layout_marginBottom="@dimen/y3"
+              android:text="惠生活"
+              android:textSize="@dimen/y6"
+              android:textColor="#4d4d4d"  />
+      </LinearLayout>
+  
+     
+    <LinearLayout
+          android:id="@+id/ll_community_estate"
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/y31"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical" >
+  
+          <ImageView
+              android:id="@+id/iv_community_estate"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/y13" 
+              android:background="@drawable/icon_community_estate"/>
+  
+          <TextView
+              android:id="@+id/tv_community_estate"
+             android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/y3"
+              android:layout_marginBottom="@dimen/y3"
+              android:text="小区物业"
+              android:textSize="@dimen/y6"
+              android:textColor="#4d4d4d"  />
+      </LinearLayout>
+  
+ </LinearLayout>

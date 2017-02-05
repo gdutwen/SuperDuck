@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:greendroid="http://schemas.android.com/apk/res/sjkj.wen.superduck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/backgroud"
+    >
+    
+    <include layout="@layout/title"/>
+       <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:background="@color/backgroudwhite"
+	        android:layout_marginLeft="@dimen/x14"
+            android:layout_marginRight="@dimen/x14"
+	        android:layout_marginTop="@dimen/y5"
+        >
+        <LinearLayout
+            style="@style/LinearlayoutStyle1">
+            <ImageView
+                
+                style="@style/ImageviewStyle1"
+                android:src="@drawable/icon_nickname"
+               />
+            <EditText
+                android:id="@+id/et_rg_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_gravity="center"
+                android:hint="请设置昵称"
+                android:background="@null"
+                android:textSize="@dimen/y9"
+                android:textColor="#b3b3b3"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6"/>
+       <LinearLayout
+            style="@style/LinearlayoutStyle1">
+
+            <ImageView
+                style="@style/ImageviewStyle1"
+                android:src="@drawable/icon_username" />
+            
+
+	           <sjkj.wen.superduck.activity.view.ClearEditTextUtils
+	                android:id="@+id/et_rg_phone"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:layout_gravity="center|right"
+	                android:layout_marginRight="@dimen/x7"
+	                android:hint="请输入您的手机号码"
+	                android:background="@null"
+	                android:textSize="@dimen/y9"
+	                android:textColor="#b3b3b3"/>
+	
+	            <Button
+	                android:id="@+id/bt_id_code"
+	                android:layout_gravity="center_vertical"
+	                android:layout_width="@dimen/x80"
+	                android:layout_height="@dimen/y18"
+	                android:layout_marginRight="10dp"
+	                android:background="@drawable/shape_verify_btn_normal"
+	                android:text="获取验证码"
+	                android:textSize="@dimen/y9" />
+ 
+
+        </LinearLayout>
+ 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6"/>
+
+        <LinearLayout
+            style="@style/LinearlayoutStyle1">
+
+            <ImageView
+                style="@style/ImageviewStyle1"
+                android:src="@drawable/icon_idcode" />
+
+            <EditText
+                android:id="@+id/et_rg_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:textSize="@dimen/y9"
+                android:textColor="#b3b3b3"
+                />
+
+        </LinearLayout>
+         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6"/>
+
+        <LinearLayout
+            style="@style/LinearlayoutStyle1">
+
+            <ImageView
+                style="@style/ImageviewStyle1"
+                android:src="@drawable/icon_password" />
+            
+	            <EditText
+	                android:id="@+id/et_rg_password1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:layout_gravity="center"
+	                android:background="@null"
+	                android:hint="请设置至少八位含数字字母密码"
+	                android:textSize="@dimen/y9"
+	                android:textColor="#b3b3b3"              />
+	
+	            <CheckBox
+	                android:id="@+id/ck_rgeye"
+	                android:layout_height="wrap_content"
+	                android:layout_width="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginTop="@dimen/y12"
+	                android:layout_marginBottom="@dimen/y12"
+	                android:layout_marginRight="@dimen/x14"
+	                android:background="@drawable/selector_eye"
+	                android:button="@null"
+	                />
+	         
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6"/>
+
+        <LinearLayout
+            style="@style/LinearlayoutStyle1">
+
+            <ImageView
+                style="@style/ImageviewStyle1"
+                android:src="@drawable/icon_password" />
+
+            <EditText
+                android:id="@+id/et_rg_password2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:hint="请再次输入密码"
+                android:textSize="@dimen/y9"
+                android:textColor="#b3b3b3"
+                android:password="true" />      
+        </LinearLayout>   
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6"/>
+
+        <LinearLayout
+            style="@style/LinearlayoutStyle1">
+
+            <ImageView
+                style="@style/ImageviewStyle1"
+                android:src="@drawable/icon_address" />
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:textSize="@dimen/y9"
+                android:textColor="#b3b3b3"
+                >
+
+               
+            </EditText>
+      
+        </LinearLayout>         
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_marginTop="@dimen/y31"
+        android:layout_marginLeft="@dimen/x14"
+        android:layout_marginRight="@dimen/x14"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y28"
+        android:background="@drawable/selector_login_button"
+        android:text="注册"
+        android:textSize="@dimen/y10"
+        android:textColor="#4d4d4d" 
+        android:enabled="false"
+        />
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="点击注册表示同意"
+	        android:textSize="@dimen/y9"
+	        android:textColor="#8d8d8d"/>
+	    <sjkj.wen.superduck.activity.view.BorderButton
+	        android:id="@+id/bt_user_know"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			greendroid:layout_borderBottom="true"
+			android:text="superduck用户协议"
+			android:textSize="@dimen/y9"
+			android:textColor="#f0171e">
+	</sjkj.wen.superduck.activity.view.BorderButton>"
+    </LinearLayout> 
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+       <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/x14"
+        android:paddingRight="@dimen/x14"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+	    <TextView 	        
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"	 
+	        
+	        android:layout_gravity="center_horizontal"      	        
+	        android:textSize="@dimen/y7"
+	        android:text="注册完成后，小区用户可到个人中心认证，小区认证后可使用"
+	        android:singleLine="true"/>
+	      <TextView 	
+	         android:layout_gravity="center_horizontal"        
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_marginBottom="@dimen/y10"
+	        android:layout_marginTop="@dimen/y4"	       
+	        android:textSize="@dimen/y7"
+	        android:text="物业功能。如未与该小区合作，可申请小区开通"
+	        android:singleLine="true"/>
+	  </LinearLayout>>
+	</RelativeLayout>
+</LinearLayout>

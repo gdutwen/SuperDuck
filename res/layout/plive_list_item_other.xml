@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/sjkj.wen.superduck"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/backgroudwhite" >
+    <sjkj.wen.superduck.activity.view.CircleImageView
+                android:id="@+id/plive_head_other_photo"
+	            android:layout_width="@dimen/margin_x90"
+	            android:layout_height="@dimen/margin_y90"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/hugh"
+	            android:layout_marginLeft="@dimen/margin_x24"
+	            android:layout_marginTop="@dimen/y4" 
+	            />
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_x24">
+        <RelativeLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/y4">
+            <TextView 
+                android:id="@+id/plive_tv_other_nickname"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="时光匆匆"
+                android:textSize="@dimen/margin_y32"
+                android:textColor="@color/text_color_4d4d4d"/>
+            <TextView 
+                android:id="@+id/plive_tv_other_time"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="8:20"
+                android:textSize="@dimen/margin_y28"
+                android:textColor="@color/text_color_8b8b8b"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_x24"/>            
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/plive_tv_other_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="上班拼车行"
+            android:textColor="@color/text_color_8b8b8b"
+            android:textSize="@dimen/margin_y28"
+            android:layout_marginTop="@dimen/margin_y18"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e6e6e6"
+            android:layout_marginTop="@dimen/margin_y24"
+            android:layout_marginBottom="@dimen/margin_y24"/>
+        <TextView 
+            android:id="@+id/plive_tv_other_content"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="周一至周五 8：00"
+	        android:maxLines="3"
+	        android:lineSpacingExtra="@dimen/margin_y14"
+	        android:textColor="@color/text_color_4d4d4d"
+	        android:textSize="@dimen/margin_y28"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义属性开始 -->
+ <declare-styleable name="BorderButton"> 
+  <attr name="layout_borders" format="boolean"></attr> 
+  <attr name="layout_borderLeft" format="boolean"></attr> 
+  <attr name="layout_borderTop" format="boolean"></attr> 
+  <attr name="layout_borderRight" format="boolean"></attr> 
+  <attr name="layout_borderBottom" format="boolean"></attr> 
+ </declare-styleable> 
+ <!-- 自定义属性结束 -->
+ <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+</resources>

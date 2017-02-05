@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x231"
+    android:layout_height="@dimen/y194"
+    android:orientation="vertical" 
+    android:background="@color/backgroud">
+    <RelativeLayout 
+        android:layout_height="@dimen/y19"
+        android:layout_width="match_parent"
+        >
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="发帖须知"
+            android:textColor="#4d4d4d"/>
+        <ImageButton 
+            android:id="@+id/bt_post_know_cancel"
+            android:layout_height="@dimen/y16"
+            android:layout_width="@dimen/x22"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x4"
+            android:layout_marginTop="@dimen/y3"
+            android:background="@drawable/cancel"/>
+    </RelativeLayout>
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/x9"
+        android:layout_marginRight="@dimen/x8"
+        android:text="友赞友弹是小区住户对物业的赞扬与批评，欢\n迎大家提出指正。\n\n1.标题尽量在20字以内.\n2.内容尽可能详细，让物业能更好了解\n3.添加的图片需为真实图片。\n4.所发内容为对物业的赞弹，无关内容希望不要发布。\n5.批评的帖子指出不好、不对的地方，应言语文明，不要出现辱骂或其他不好的词汇。\n6.对于发布的帖子若被举报，审核通过后视情节处理。发帖不当和谐该贴，若情节严重将封号两天。\n做文明公民，创和谐家园！"
+        android:textSize="@dimen/y7"
+        android:lineSpacingExtra="@dimen/y3"
+        android:maxEms="20"
+        android:textColor="#4d4d4d"/>
+
+</LinearLayout>

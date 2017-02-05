@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8" >
+    <LinearLayout 
+        android:layout_height="@dimen/y19"
+        android:layout_width="match_parent"
+        >
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="@dimen/y6"
+	        android:text="置顶通知为紧要通知，请及时查看"
+	        android:height="@dimen/y8"
+	        android:textSize="10sp"
+	        android:textColor="#b3b3b3"/>
+    </LinearLayout>
+    <ListView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        ></ListView>
+</LinearLayout>
